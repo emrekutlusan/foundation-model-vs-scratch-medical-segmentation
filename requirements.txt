@@ -1,0 +1,14 @@
+# Training and evaluation (run on Google Colab with a GPU)
+torch
+torchvision
+transformers==4.57.6   # 5.x renames the DINOv2 attention modules; checkpoints were trained with 4.x
+peft
+albumentations
+imagehash
+scipy
+requests
+# Analysis (CPU)
+numpy
+pandas
+matplotlib
+pillow
