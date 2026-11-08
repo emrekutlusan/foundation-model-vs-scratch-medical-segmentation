@@ -1,6 +1,6 @@
 # Foundation-model adaptation vs. task-specific training for medical image segmentation
 
-Code for the paper *Foundation Model Adaptation versus Task-Specific Training for Medical Image Segmentation: Cross-Dataset Generalisation and Adaptation Capacity* (Kutlusan and Li).
+Code for the paper *Foundation Model Adaptation versus Task-Specific Training for Medical Image Segmentation: Cross-Dataset Generalisation and Adaptation Capacity*
 
 The study compares a DINOv2-Small encoder with a linear decoder, adapted under frozen, BitFit, LoRA (ranks 4–32) and full fine-tuning, against a plain and a residual U-Net trained from scratch under the nnU-Net recipe, in three domains (colonoscopy polyps, breast ultrasound, dermoscopy) with eight out-of-distribution test sets.
 
